@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: rgb(78, 77, 77);
+}
+
+.bg-class {
+  background: url("./image.avif");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.container {
+  padding: 100px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+}
